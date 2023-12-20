@@ -1,0 +1,14 @@
+public class JsonToByteArrayExample {
+    public static void main(String[] args) {
+        // Sample JSON string
+        String jsonString = "{\"key\":\"value\", \"number\":42}";
+
+        // Convert JSON string to byte array
+        byte[] byteArray = jsonString.getBytes();
+
+        // Printing the byte array
+        for (byte b : byteArray) {
+            System.out.print(b + " ");
+        }
+    }
+}
